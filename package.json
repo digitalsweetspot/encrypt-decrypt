@@ -1,0 +1,26 @@
+{
+  "name": "encrypt-decrypt",
+  "version": "1.0.0",
+  "description": "Provides simple encryption and decryption services based on node's crypto functionality",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digitalsweetspot/encrypt-decrypt.git"
+  },
+  "keywords": [
+    "encryption",
+    "decription",
+    "utility",
+    "service",
+    "crypto",
+    "node"
+  ],
+  "author": "Jon Hopewell <jon@digitalsweetspot.com>",
+  "license": "MIT"
+}
