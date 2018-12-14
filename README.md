@@ -3,8 +3,12 @@
 This package provides encryption and decryption services.
 - - -
 
-## How to use
+## How to install
+```
+npm install encrypt-decrypt
+```
 
+## How to use
 ```
 const encrypt_decrypt = require('encrypt-decrypt')
 
@@ -19,6 +23,7 @@ console.log(encStr) // 65f1702da3ac2e2d28e4a972d3b955a4
 const decrStr = encrytDecrypt.decrypt('65f1702da3ac2e2d28e4a972d3b955a4')
 console.log(decrStr) // Hello World!
 ```
+
 ### Required Parameters
 `key`<br />
 _must be 32 characters long_
@@ -37,4 +42,4 @@ _must be one of: utf8, ascii, latin1_
 _must be one of: hex, base64, latin1_
 
 ## License
-MIT
+[MIT](./LICENSE)
