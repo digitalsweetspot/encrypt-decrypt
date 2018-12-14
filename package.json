@@ -1,5 +1,5 @@
 {
-  "name": "encrypt-decrypt",
+  "name": "encrypto-decrypto",
   "version": "1.0.0",
   "description": "Provides simple encryption and decryption services based on node's crypto functionality.",
   "author": "Jon Hopewell <jon@digitalsweetspot.com>",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalsweetspot/encrypt-decrypt"
+    "url": "https://github.com/digitalsweetspot/encrypto-decrypto"
   },
   "bugs": {
-    "url": "https://github.com/digitalsweetspot/encrypt-decrypt/issues"
+    "url": "https://github.com/digitalsweetspot/encrypto-decrypto/issues"
   },
   "devDependencies": {
     "mocha": "^5.2.0"

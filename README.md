@@ -1,26 +1,26 @@
-# encrypt-decrypt
+# encrypto-decrypto
 - - -
-This package provides encryption and decryption services.
+Provides simple encryption and decryption services based on node's crypto functionality.
 - - -
 
 ## How to install
 ```
-npm install encrypt-decrypt
+npm install encrypto-decrypto
 ```
 
 ## How to use
 ```
-const encrypt_decrypt = require('encrypt-decrypt')
+const encrypto_decrypto = require('encrypto-decrypto')
 
-const encrytDecrypt = new encrypt_decrypt({
+const encryptoDecrypto = new encrypto_decrypto({
   key: 'someReallyLongStringToUseAsAKey!',
   iv: 'nonceString4Key!'
 })
 
-const encStr = encrytDecrypt.encrypt('Hello World!')
+const encStr = encryptoDecrypto.encrypt('Hello World!')
 console.log(encStr) // 65f1702da3ac2e2d28e4a972d3b955a4
 
-const decrStr = encrytDecrypt.decrypt('65f1702da3ac2e2d28e4a972d3b955a4')
+const decrStr = encryptoDecrypto.decrypt('65f1702da3ac2e2d28e4a972d3b955a4')
 console.log(decrStr) // Hello World!
 ```
 
